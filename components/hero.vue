@@ -9,7 +9,7 @@
                     with <span class="text-[#0075BE]">Innovative</span> Cloud<br>
                     Solutions
                 </h1>
-                <p class="max-w-2xl font-light mb-5 text-gray-500 md:text-lg lg:text-xl ">Project M offers
+                <p class="max-w-2xl font-normal mb-5 text-gray-500 md:text-lg lg:text-xl ">Project M offers
                     cloud-based solutions that simplify school <br> management, improve efficiency, and support student
                     success with<br>ease and security.</p>
 
