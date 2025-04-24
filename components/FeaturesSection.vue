@@ -18,14 +18,14 @@
 
 <script lang="ts" setup>
 const features = [
-    { icon: 'fas fa-hand-pointer', title: 'Friendly User', description: 'Get a better understanding of where your traffic is coming from.' },
-    { icon: 'fas fa-mobile-alt', title: 'Mobility', description: 'Get a better understanding of where your traffic is coming from.' },
-    { icon: 'fas fa-map-marker-alt', title: 'Use Anywhere', description: 'Get a better understanding of where your traffic is coming from.' },
-    { icon: 'fas fa-shield-alt', title: 'Security', description: 'Get a better understanding of where your traffic is coming from.' },
-    { icon: 'fas fa-cloud', title: 'Cloud', description: 'Get a better understanding of where your traffic is coming from.' },
-    { icon: 'fas fa-laptop-code', title: 'Easy to Deploy', description: 'Get a better understanding of where your traffic is coming from.' },
-    { icon: 'fas fa-money-bill-wave', title: 'Cost Efficient', description: 'Get a better understanding of where your traffic is coming from.' },
-    { icon: 'fas fa-bolt', title: 'Fast Response', description: 'Get a better understanding of where your traffic is coming from.' },
+    { icon: '', title: 'Friendly User', description: 'Get a better understanding of where your traffic is coming from.' },
+    { icon: '', title: 'Mobility', description: 'Get a better understanding of where your traffic is coming from.' },
+    { icon: '', title: 'Use Anywhere', description: 'Get a better understanding of where your traffic is coming from.' },
+    { icon: '', title: 'Security', description: 'Get a better understanding of where your traffic is coming from.' },
+    { icon: '', title: 'Cloud', description: 'Get a better understanding of where your traffic is coming from.' },
+    { icon: '', title: 'Easy to Deploy', description: 'Get a better understanding of where your traffic is coming from.' },
+    { icon: '', title: 'Cost Efficient', description: 'Get a better understanding of where your traffic is coming from.' },
+    { icon: '', title: 'Fast Response', description: 'Get a better understanding of where your traffic is coming from.' },
 ];
 </script>
 
