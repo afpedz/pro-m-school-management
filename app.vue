@@ -1,6 +1,6 @@
 <template>
-  <div class="pt-16">
+  < class="pt-16">
     <NavigationBar />
     <HeroSection />
-  </div>
+    <FeaturesSection />
 </template>

@@ -13,14 +13,14 @@
                     cloud-based solutions that simplify school <br> management, improve efficiency, and support student
                     success with<br>ease and security.</p>
 
-                <div class="flex flex-wrap items-center space-x-3">
+                <div class="flex flex-wrap items-center space-x-3 px-6">
                     <a href="#"
-                        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center bg-[#0075BE] text-white border border-gray-300 rounded-2xl hover:bg-white hover:text-[#0075BE] hover:border-[#0075BE] focus:ring-4 focus:ring-gray-100 ">
+                        class="inline-flex items-center justify-center w-[180px] h-[60px] text-base font-normal text-center bg-[#0075BE] text-white border border-gray-300 rounded-[25px] hover:bg-white hover:text-[#0075BE] hover:border-[#0075BE] focus:ring-4 focus:ring-gray-100 ">
                         Join Now
                     </a>
                     <a href="#"
-                        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-[#0075BE] border border-[#0075BE] rounded-2xl hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 ">
-                        Learn More
+                        class="inline-flex items-center justify-center w-[180px] h-[60px] text-base font-normal text-center text-[#0075BE] border border-[#0075BE] rounded-[25px] hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 ">
+                        Learn More <span></span>
                     </a>
                 </div>
             </div>
