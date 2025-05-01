@@ -1,9 +1,9 @@
 <template>
     <nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-transparent transition-all duration-300"
-        :class="{ 'border-gray-200': isScrolled }">
+        :class="{ 'border-gray-200 shadow-md': isScrolled }">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="~/assets/img/pro-m_logo.png" class="h-auto w-40" alt="Pro M Logo" />
+                <img src="/img/pro-m_logo.png" class="h-auto w-40" alt="Pro M Logo" />
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <button type="button"
