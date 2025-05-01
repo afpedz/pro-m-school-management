@@ -32,17 +32,16 @@
             </div>
         </div>
         <div
-            class="max-w-screen-xl mx-auto px-4 mt-8 border-t border-gray-200 pt-4 flex flex-col md:flex-row justify-between items-center text-xs text-gray-400">
+            class="max-w-screen-xl mx-auto px-4 mt-8 border-t border-gray-200 pt-4 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
             <div class="mb-2 md:mb-0">
-                Cookies Settings | <a href="#" class="underline">Terms and Conditions</a> | <a href="#"
-                    class="underline">Privacy Policy</a>
+                <a href="#" class="hover:underline">Cookies Settings</a> | <a href="#" class="hover:underline">Terms and
+                    Conditions</a> | <a href="#" class="hover:underline">Privacy Policy</a>
             </div>
         </div>
     </footer>
 </template>
 
 <script setup lang="ts">
-// No script logic needed for static footer
 </script>
 
 <style scoped>
