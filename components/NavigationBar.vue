@@ -34,10 +34,6 @@
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#0075BE] md:p-0">Team</a>
-                    </li>
-                    <li>
-                        <a href="#"
                             class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#0075BE] md:p-0">About
                             Us</a>
                     </li>
