@@ -1,12 +1,15 @@
 <template>
-    <div class="max-w-screen-xl mx-auto py-16">
-        <h1 class="text-4xl font-bold mb-4">Our Services</h1>
-        <p class="text-lg">Details about the services offered will go here.</p>
-    </div>
+    <MeetingHero title="About Our Software"
+        description="Using the latest in information technology, our school management system software is designed to simplify the complex but necessary processes in order to successfully operate academic institutions. Our system enables school administrators to efficiently manage essential tasks, which in turn, makes them more flexible and more equipped in providing quality education to their students."
+        image="/img/meeting.jpg" />
+    <ServicesGrid />
+    <WhyChooseUs />
+    <FooterSection />
 </template>
 
 <script setup lang="ts">
-// ...
+import ServicesGrid from '~/components/services/ServicesGrid.vue';
+import WhyChooseUs from '~/components/services/WhyChooseUs.vue';
 </script>
 
 <style scoped></style>

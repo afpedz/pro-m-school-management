@@ -15,5 +15,4 @@ import CustomerSupportSection from '~/components/home/CustomerSupportSection.vue
 import EmpoweringSection from '~/components/home/EmpoweringSection.vue'
 import CardsSection from '~/components/home/CardsSection.vue'
 import TestimonialsSection from '~/components/home/TestimonialsSection.vue'
-import FooterSection from '~/components/home/FooterSection.vue'
 </script>

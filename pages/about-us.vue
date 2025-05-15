@@ -1,12 +1,15 @@
 <template>
-    <div class="max-w-screen-xl mx-auto py-16">
-        <h1 class="text-4xl font-bold mb-4">About Us</h1>
-        <p class="text-lg">Information about the company will go here.</p>
+    <div>
+        <MeetingHero title="Project-M School Management System"
+            description="Our team is composed of experienced and skilled professionals from the academe, information technology, and other relevant fields. We are committed to helping you streamline and optimize your academic processes through our advanced school management system software."
+            image="/img/meeting.jpg" />
+        <TeamMember />
+        <FooterSection />
     </div>
 </template>
 
 <script setup lang="ts">
-// ...
+import TeamMember from '~/components/about/TeamMember.vue';
 </script>
 
 <style scoped></style>

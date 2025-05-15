@@ -1,11 +1,20 @@
 <template>
-    <div class="max-w-screen-xl mx-auto py-16">
-        <h1 class="text-4xl font-bold mb-4">Contact Us</h1>
-        <p class="text-lg">Contact information and form will go here.</p>
+    <div>
+        <MeetingHero title="Contact Us"
+            description="We’re excited for the opportunity to collaborate with you in turning your vision for educational technology into reality. Thank you for choosing Project M IT Solution as your trusted partner in education management and digital innovation."
+            image="/img/meeting.jpg" />
+        <ContactForm />
+        <ContactItems />
+        <ContactMap />
+        <FooterSection />
     </div>
 </template>
 
 <script setup lang="ts">
+import ContactForm from '~/components/contact/ContactForm.vue';
+import ContactItems from '~/components/contact/ContactItems.vue';
+import ContactMap from '~/components/contact/ContactMap.vue';
+
 // ...
 </script>
 
