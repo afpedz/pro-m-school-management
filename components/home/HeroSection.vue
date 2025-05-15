@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="hidden lg:mt-0 lg:col-span-6 lg:flex">
-                <img src="/img/hero_img.jpg" alt="hero image" class="rounded-3xl w-[600px] h-[400px]" />
+                <NuxtImg src="/img/hero_img.jpg" alt="hero image" class="rounded-3xl w-[600px] h-[400px]" />
             </div>
         </div>
     </section>

@@ -4,7 +4,7 @@
             <div v-for="(card, index) in cards" :key="index"
                 class="rounded-lg overflow-hidden flex flex-col justify-between">
                 <div>
-                    <img :src="card.image" :alt="card.title" class="w-full h-48 object-cover shadow-lg" />
+                    <NuxtImg :src="card.image" :alt="card.title" class="w-full h-48 object-cover shadow-lg" />
                     <div class="p-6">
                         <h3 class="text-[#0075BE] text-sm font-semibold mb-2">{{ card.category }}</h3>
                         <h2 class="text-2xl font-bold mb-4">{{ card.title }}</h2>
@@ -12,7 +12,7 @@
                     </div>
                 </div>
                 <div class="flex items-center space-x-4 p-6">
-                    <img :src="card.authorImage" alt="Author" class="w-10 h-10 rounded-full" />
+                    <NuxtImg :src="card.authorImage" alt="Author" class="w-10 h-10 rounded-full" />
                     <div>
                         <p class="text-sm font-medium">{{ card.author }}</p>
                         <p class="text-sm text-gray-500">{{ card.date }}</p>

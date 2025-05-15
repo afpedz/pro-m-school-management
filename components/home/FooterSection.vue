@@ -3,7 +3,7 @@
         <div class="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row md:justify-between md:items-start gap-8">
             <div class="flex-1 min-w-[250px]">
                 <div class="flex items-center mb-2">
-                    <img src="/img/pro-m_logo.png" alt="Project C Logo" class="h-auto w-35 mr-2" />
+                    <NuxtImg src="/img/pro-m_logo.png" alt="Project C Logo" class="h-auto w-35 mr-2" />
                 </div>
                 <p class="text-gray-500 text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Suspendisse varius enim in eros elementum tristique.</p>

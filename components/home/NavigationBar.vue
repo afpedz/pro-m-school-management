@@ -3,7 +3,7 @@
         :class="{ 'border-gray-200 shadow-md': isScrolled }">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="/img/pro-m_logo.png" class="h-auto w-40" alt="Pro M Logo" />
+                <NuxtImg src="/img/pro-m_logo.png" class="h-auto w-40" alt="Pro M Logo" />
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <button type="button"

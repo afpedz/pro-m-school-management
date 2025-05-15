@@ -12,7 +12,7 @@
         <div class="flex flex-row gap-16">
             <div v-for="(testimonial, idx) in testimonials" :key="idx"
                 class="flex flex-col justify-center items-center w-1/2">
-                <img class="h-[90px] w-auto pb-4" :src="testimonial.img" alt="logo">
+                <NuxtImg class="h-[90px] w-auto pb-4" :src="testimonial.img" alt="logo" />
                 <div class="text-medium text-black text-center py-4">
                     {{ testimonial.text }}
                 </div>
