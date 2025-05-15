@@ -72,6 +72,18 @@ const items = [
         to: 'https://github.com/antfu',
         avatar: { src: 'https://ipx.nuxt.com/f_auto,s_192x192/gh_avatar/antfu' },
 
+    },
+    {
+        name: 'Anthony Fu',
+        to: 'https://github.com/antfu',
+        avatar: { src: 'https://ipx.nuxt.com/f_auto,s_192x192/gh_avatar/antfu' },
+
+    },
+    {
+        name: 'Anthony Fu',
+        to: 'https://github.com/antfu',
+        avatar: { src: 'https://ipx.nuxt.com/f_auto,s_192x192/gh_avatar/antfu' },
+
     }]
 </script>
 
