@@ -24,23 +24,20 @@
                 <ul
                     class="flex flex-col p-4 gap-8 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-white bg-[#0075BE] rounded-sm md:bg-transparent md:text-[#0075BE] md:p-0 "
-                            aria-current="page">Home</a>
+                        <NuxtLink to="/" class="block py-2 px-3 rounded-sm md:p-0"
+                            :class="{ 'text-[#0075BE]': $route.path === '/' }" aria-current="page">Home</NuxtLink>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#0075BE] md:p-0">Services</a>
+                        <NuxtLink to="/services" class="block py-2 px-3 rounded-sm md:p-0"
+                            :class="{ 'text-[#0075BE]': $route.path === '/services' }">Services</NuxtLink>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#0075BE] md:p-0">About
-                            Us</a>
+                        <NuxtLink to="/about-us" class="block py-2 px-3 rounded-sm md:p-0"
+                            :class="{ 'text-[#0075BE]': $route.path === '/about-us' }">About Us</NuxtLink>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#0075BE] md:p-0 ">Contact
-                            Us</a>
+                        <NuxtLink to="/contact-us" class="block py-2 px-3 rounded-sm md:p-0"
+                            :class="{ 'text-[#0075BE]': $route.path === '/contact-us' }">Contact Us</NuxtLink>
                     </li>
                 </ul>
             </div>

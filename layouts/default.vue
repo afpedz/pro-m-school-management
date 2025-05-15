@@ -6,5 +6,5 @@
 </template>
 
 <script setup>
-import NavigationBar from '~/components/NavigationBar.vue'
+import NavigationBar from '~/components/home/NavigationBar.vue'
 </script>
