@@ -2,14 +2,14 @@
     <section v-for="(content, index) in sections" :key="index" class="bg-white py-4">
         <div class="max-w-screen-xl mx-auto px-16 flex justify-stretch items-center space-x-16">
             <div class="w-1/2" v-if="index % 2 === 0">
-                <img :src="content.image" :alt="content.alt" class="w-[450px] h-auto" />
+                <NuxtImg :src="content.image" :alt="content.alt" class="w-[450px] h-auto" />
             </div>
             <div class="w-1/2">
                 <h2 class="text-3xl font-bold mb-4">{{ content.title }}</h2>
                 <p class="text-gray-500 mb-6">{{ content.description }}</p>
             </div>
             <div class="w-1/2" v-if="index % 2 !== 0">
-                <img :src="content.image" :alt="content.alt" class="w-[450px] h-auto" />
+                <NuxtImg :src="content.image" :alt="content.alt" class="w-[450px] h-auto" />
             </div>
         </div>
     </section>
